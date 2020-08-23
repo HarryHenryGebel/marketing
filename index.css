@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+#about-us h1:hover{
+  color: #03CBC7;
+  cursor: pointer;
+}
+
+.header {
+  background-color: #504746;
+  padding-left: 25px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  border-radius: 50px;
+}
+
+.images > img {
+  border-radius: 50px;
+}
+
+.images > img:hover {
+  opacity: 75%;
+  border-radius: 0px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: #EAD2AC;
+  font-size: 3em;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  color: #4281A4;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h2:hover {
+  color: #03CBC7;
+  cursor: pointer;
+}
+
+.closing {
+  color: #4281A4;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner > img {
+  width: 75%;
+  border-radius: 50px;
+}
+
+.banner > img:hover{
+  border-radius: 0px;
+  opacity: 75%;
+}
+
+
+
+footer {
+  background-color: #EAD2AC;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  padding: 5% 0;
+}
+footer > .icons{
+  color: #504746;
+  text-align: center;
+}
+
+footer .icons:hover{
+  color: #03CBC7;
+}
+
+footer a:link, footer a:visited {
+  color: #504746;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #03CBC7;
+}
