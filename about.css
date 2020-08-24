@@ -74,8 +74,6 @@ p {
   opacity: 75%;
 }
 
-
-
 footer {
   background-color: #EAD2AC;
   text-align: center;
@@ -99,4 +97,11 @@ footer a:link, footer a:visited {
 
 footer a:hover{
   color: #03CBC7;
+}
+
+@media(max-width: 500px) {
+  .imgages {
+   width: 100%;
+   height: auto;
+  }
 }
