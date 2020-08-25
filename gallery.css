@@ -1,0 +1,129 @@
+/* *{
+    border: 1px solid grey;
+  }; */
+  
+  body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  h1:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  
+  .login-register {
+      margin: 1% .5%;
+      text-align: right;
+  }
+
+  .login-register a{
+      padding: .5%;
+      margin: 1%;
+      border: 1px solid #4281A4;
+      color: #504746;
+      border-radius: 20px;
+      text-decoration: none;
+      background-color: aqua;
+      font-size: 1em;
+  }
+
+  #bar{
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+    color: #504746;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 1%;
+    background-color: #EAD2AC;
+  }
+  
+  #bar a{
+    text-decoration: none;
+    color: #504746;
+  }
+  
+  #bar a:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
+
+  .header {
+    background-color: #504746;
+    padding-left: 1%;
+  }
+  
+  h1{
+    font-family: 'Pacifico', cursive;
+    color: #EAD2AC;
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  h2{
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    color: #4281A4;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  h2:hover {
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  
+  h3 {
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    color: #03CBC7;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  h3:hover {
+    color: #4281A4;
+    cursor: pointer;
+  }
+
+ h4 {
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    color: #03CBC7;
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  h4:hover {
+    color: #4281A4;
+    cursor: pointer;
+  }
+
+  p {
+    text-align: left;
+    font-size: 1.2em;
+  }
+  
+  .short-description{
+    margin: 2% 1% 0;
+  }
+
+footer {
+    background-color: #EAD2AC;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    padding: 5%;
+    margin: 3% 0 0; 
+  }
+
+  footer nav a {
+    color: #504746;
+  }
+  
+  @media(max-width: 500px) {
+    .testimonial-header img {
+     width: 100%;
+     height: auto;
+    }
+  }
