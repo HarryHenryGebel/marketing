@@ -94,7 +94,8 @@
     flex-wrap: wrap;
     text-align: left;
     margin: 1%;
-    /* border: 3px solid blueviolet; */
+    border: 3px solid #504746;
+    background-color: #EAD2AC;
   }
   
   .testimonial-header {
@@ -128,6 +129,7 @@
     /* background-color: peachpuff; */
     align-items: flex-start;
     font-size: 1.4em;
+    padding: 1%;
   }
 
   footer {
@@ -136,6 +138,7 @@
     font-family: 'Pacifico', cursive;
     font-size: 1em;
     padding: 5%;
+    margin: 3% 0 0; 
   }
 
   footer nav a {
