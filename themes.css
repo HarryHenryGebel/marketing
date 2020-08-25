@@ -13,20 +13,20 @@
   }
   
   .login-register {
-    margin: 1% .5%;
-    text-align: right;
-}
+      margin: 1% .5%;
+      text-align: right;
+  }
 
-.login-register a{
-    padding: .5%;
-    margin: 1%;
-    border: 1px solid #4281A4;
-    color: #504746;
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: aqua;
-    font-size: 1em;
-}
+  .login-register a{
+      padding: .5%;
+      margin: 1%;
+      border: 1px solid #4281A4;
+      color: #504746;
+      border-radius: 20px;
+      text-decoration: none;
+      background-color: aqua;
+      font-size: 1em;
+  }
 
   #bar{
     text-align: right;
@@ -50,7 +50,7 @@
 
   .header {
     background-color: #504746;
-    padding-left: 25px;
+    padding-left: 1%;
   }
   
   h1{
@@ -85,77 +85,73 @@
     color: #4281A4;
     cursor: pointer;
   }
-  
+
+ h4 {
+    text-align: left;
+    font-family: 'Pacifico', cursive;
+    color: #03CBC7;
+    font-size: 1.4em;
+    margin: 0;
+  }
+
+  h4:hover {
+    color: #4281A4;
+    cursor: pointer;
+  }
+
   p {
     text-align: left;
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   
   .short-description{
-    margin: 2% 1%;
+    margin: 2% 1% 0;
   }
 
-  .all-testimonials {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.all-themes{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding:4%;
+  }
+
+.theme{
+  display: flex;
+  margin: 2% 0;
+  justify-content: space-evenly;
+}
+
+.image-left{
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    margin: 0;
+  }
+
+.image-left img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    margin: 0;
     width: 100%;
   }
-  
-  .testimonial {
-    display: flex;
-    flex-direction: row;
-    width: 45%;
-    flex-wrap: wrap;
+
+.theme-info-right{
+    width:60%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+.theme-info-right .theme-info{
     text-align: left;
-    margin: 1%;
-    padding: 1%;
-    border: 3px solid #504746;
-    background-color: #EAD2AC;
-    border-radius: 20px;
+    width:100%;
   }
 
-  .testimonial:hover {
-    background-color: #4281A4;
-    color: white;
-  }
-  
-  .testimonial-header {
-    display: flex;
-    justify-content: space-between;
-    /* background-color: yellow; */
-    height: 15vh;
-  }
-  
-  .testimonial-header img {
-    display: flex;
-    width: 50%;
-    /* background-color: red; */
-  }
-  
-  .testimonial-header p {
-    display: flex;
-    width: 45%;
-    /* background-color: green; */
-    text-align: right;
-  }
-  
-  .review {
-    display: flex;
-    /* background-color: grey; */
-    align-items: flex-start;
-  }
-  
-  .review p {
-    display: flex;
-    /* background-color: peachpuff; */
-    align-items: flex-start;
-    font-size: 1.4em;
-    padding: 1%;
-  }
-
-  footer {
+footer {
     background-color: #EAD2AC;
     text-align: center;
     font-family: 'Pacifico', cursive;
@@ -174,6 +170,3 @@
      height: auto;
     }
   }
-  
-  
-  
