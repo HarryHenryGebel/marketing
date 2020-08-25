@@ -63,19 +63,6 @@
     margin: 0;
   }
   
-  /* .header h3 {
-    text-align: left;
-    font-family: 'Pacifico', cursive;
-    color: #EAD2AC;
-    font-size: 3em;
-    margin: 0;
-  }
-  
-  .header h3:hover {
-    color: #03CBC7;
-    cursor: pointer;
-  } */
-  
   h3:hover {
     color: #4281A4;
     cursor: pointer;
@@ -101,31 +88,41 @@
     flex-wrap: wrap;
     text-align: left;
     margin: 1%;
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
   }
   
   .testimonial-header {
     display: flex;
-    background-color: yellow;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    height: 15vh;
   }
   
   .testimonial-header img {
     display: flex;
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
   }
   
   .testimonial-header p {
     display: flex;
-    width: 25%;
-    background-color: green;
+    width: 45%;
+    /* background-color: green; */
+    text-align: right;
   }
   
   .review {
     display: flex;
-    background-color: grey;
+    /* background-color: grey; */
+    align-items: flex-start;
   }
   
+  .review p {
+    display: flex;
+    /* background-color: peachpuff; */
+    align-items: flex-start;
+  }
+
   footer {
     background-color: #EAD2AC;
     text-align: center;
