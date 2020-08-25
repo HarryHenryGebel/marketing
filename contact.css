@@ -23,7 +23,7 @@ body {
   cursor: pointer;
 }
 
-#about-us h1:hover{
+#contact-us h1:hover{
   color: #03CBC7;
   cursor: pointer;
 }
@@ -51,52 +51,40 @@ body {
   padding-left: 25px;
 }
 
-.images {
+.topPic {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 25px;
   border-radius: 50px;
 }
 
-.images > img {
+.topPic > img {
   border-radius: 50px;
 }
 
-.images > img:hover {
+.topPic > img:hover {
   opacity: 75%;
   border-radius: 0px;
 }
 
-.row1images {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px;
-  border-radius: 50px;
+form {
+  padding-left: 5%;
 }
 
-.row1images > img {
-  border-radius: 50px;
+button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  border-radius: 25%;
+  padding: 15px;
+  border-color: #ffffff;
+  color: #03CBC7;
+  background-color: #4281A4;
 }
 
-.row1images > img:hover {
-  opacity: 75%;
-  border-radius: 0px;
-}
-
-.row2images {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px;
-  border-radius: 50px;
-}
-
-.row2images > img {
-  border-radius: 50px;
-}
-
-.row2images > img:hover {
-  opacity: 75%;
-  border-radius: 0px;
+button:hover{
+  cursor: pointer;
+  color: #4281A4;
+  background-color: #03CBC7;
 }
 
 h1 {
@@ -129,13 +117,32 @@ p {
   text-align: center;
 }
 
+#form2 {
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+}
+
+#form2 > input {
+  border-radius: 15%;
+  border: 3px solid #4281A4;
+  color: #03CBC7;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#form2 > input, #form2 > label {
+  flex-grow: 2;
+  margin-bottom: 5px;
+}
+
 .banner {
   display: flex;
   justify-content: space-around;
 }
 
 .banner > img {
-  width: 75%;
+  width: 50%;
   border-radius: 50px;
 }
 
@@ -176,8 +183,10 @@ footer a:hover{
 }
 
 @media(max-width: 500px) {
-  .images {
+  .imgages {
    width: 100%;
    height: auto;
   }
 }
+
+

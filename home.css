@@ -1,0 +1,195 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  .login {
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+    color: #EAD2AC;
+    font-size: 1em;
+    margin-right: %;
+  }
+  
+  .login a:link, .login a:visited {
+    text-decoration: none;
+    color: #EAD2AC;
+    background-color: #504746; 
+    padding: 10px;
+  }
+  
+  .login a:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  
+  #home h1:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  
+  #bar{
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+    color: #EAD2AC;
+    font-size: 1em;
+    margin: 0;
+  }
+  
+  #bar a{
+    text-decoration: none;
+    color: #4281A4;
+  }
+  
+  #bar a:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  .header {
+    background-color: #504746;
+    padding-left: 25px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 25px;
+    border-radius: 50px;
+  }
+  
+  .images > img {
+    border-radius: 50px;
+  }
+  
+  .images > img:hover {
+    opacity: 75%;
+    border-radius: 0px;
+  }
+  
+  .bottomPic {
+    text-align: center;
+    margin: 25px;
+    border-radius: 50px;
+  }
+  
+  .bottomPic > img {
+    border-radius: 50px;
+  }
+  
+  .bottomPic> img:hover {
+    opacity: 75%;
+    border-radius: 0px;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    color: #EAD2AC;
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  h2{
+    text-aling: left;
+    font-family: 'Pacifico', cursive;
+    color: #4281A4;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  h2:hover {
+    color: #03CBC7;
+    cursor: pointer;
+  }
+  
+  h3 {
+    text-aling: left;
+    font-family: 'Pacifico', cursive;
+    color: #03CBC7;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  h3:hover {
+    color: #4281A4;
+    cursor: pointer;
+  }
+  .closing {
+    color: #4281A4;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  #form2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #form2 > input {
+    border-radius: 25%;
+    border: 3px solid #4281A4;
+    color: #03CBC7;
+    padding: 10px;
+    
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .banner > img {
+    width: 50%;
+    border-radius: 50px;
+  }
+  
+  .banner > img:hover{
+    border-radius: 0px;
+    opacity: 75%;
+  }
+  
+  footer {
+    background-color: #EAD2AC;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    padding: 5%;
+  }
+  
+  footer > button > a{
+     display: flex;
+    justify-content: space-between;
+  }
+  
+  footer > .icons{
+    color: #504746;
+    text-align: center;
+  }
+  
+  footer .icons:hover{
+    color: #03CBC7;
+  }
+  
+  footer a:link, footer a:visited {
+    color: #504746;
+    text-decoration: none;
+  }
+  
+  footer a:hover{
+    color: #03CBC7;
+  }
+  
+  @media(max-width: 500px) {
+    .images {
+     width: 100%;
+     height: auto;
+    }
+  }
+  
+  
+  
