@@ -133,6 +133,10 @@
     font-size: 1em;
     padding: 5%;
   }
+
+  footer nav a {
+    color: #504746;
+  }
   
   @media(max-width: 500px) {
     .testimonial-header img {
