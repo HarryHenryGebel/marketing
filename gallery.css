@@ -123,6 +123,10 @@
     text-align: center;
 }
 
+.photo img{
+    width: 100%;
+}
+
 .photo p {
     align-items: center;
     height: 100px;
