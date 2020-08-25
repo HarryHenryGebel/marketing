@@ -74,6 +74,10 @@
     font-size: 1.6em;
   }
   
+  .short-description{
+    margin: 2% 1%;
+  }
+
   .all-testimonials {
     display: flex;
     flex-direction: row;
