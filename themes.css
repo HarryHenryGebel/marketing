@@ -12,6 +12,16 @@
     cursor: pointer;
   }
   
+  .login-register a{
+      padding: .1%;
+      margin: 3% 3%;
+      border: 1px solid #4281A4;
+      color: white;
+      border-radius: 20px;
+      text-decoration: none;
+      background-color: aqua;
+  }
+
   #bar{
     text-align: right;
     font-family: 'Pacifico', cursive;
@@ -34,7 +44,8 @@
 
   .header {
     background-color: #504746;
-    padding-left: 25px;
+    padding-left: 1%;
+    margin: 1% 0 0;
   }
   
   h1{
@@ -102,6 +113,7 @@
 .theme{
   display: flex;
   margin: 2% 0;
+  justify-content: space-evenly;
 }
 
 .image-left{
