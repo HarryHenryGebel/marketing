@@ -121,6 +121,7 @@
     display: flex;
     /* background-color: peachpuff; */
     align-items: flex-start;
+    font-size: 1.4em;
   }
 
   footer {
