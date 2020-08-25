@@ -40,7 +40,7 @@
     color: #EAD2AC;
     font-size: 3em;
     margin: 0;
-  };
+  }
   
   h2{
     text-align: left;
@@ -63,7 +63,7 @@
     margin: 0;
   }
   
-  .header h3 {
+  /* .header h3 {
     text-align: left;
     font-family: 'Pacifico', cursive;
     color: #EAD2AC;
@@ -74,7 +74,7 @@
   .header h3:hover {
     color: #03CBC7;
     cursor: pointer;
-  }
+  } */
   
   h3:hover {
     color: #4281A4;
@@ -83,6 +83,7 @@
   
   p {
     text-align: left;
+    font-size: 1.6em;
   }
   
   .all-testimonials {
@@ -133,12 +134,12 @@
     padding: 5%;
   }
   
-  /* @media(max-width: 500px) {
+  @media(max-width: 500px) {
     .testimonial-header img {
      width: 100%;
      height: auto;
     };
   };
-   */
+  
   
   
