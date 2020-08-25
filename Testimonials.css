@@ -15,14 +15,15 @@
   #bar{
     text-align: right;
     font-family: 'Pacifico', cursive;
-    color: #EAD2AC;
+    color: #504746;
     font-size: 1em;
     margin: 0;
+    background-color: #EAD2AC;
   }
   
   #bar a{
     text-decoration: none;
-    color: #4281A4;
+    color: #504746;
   }
   
   #bar a:hover{
