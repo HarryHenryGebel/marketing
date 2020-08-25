@@ -18,7 +18,7 @@
     color: #504746;
     font-size: 1em;
     margin: 0;
-    padding: 1%;
+    padding: 0 1%;
     background-color: #EAD2AC;
   }
   
@@ -146,8 +146,8 @@
     .testimonial-header img {
      width: 100%;
      height: auto;
-    };
-  };
+    }
+  }
   
   
   
