@@ -12,6 +12,22 @@
     cursor: pointer;
   }
   
+  .login-register {
+    margin: 1% .5%;
+    text-align: right;
+}
+
+.login-register a{
+    padding: .5%;
+    margin: 1%;
+    border: 1px solid #4281A4;
+    color: #504746;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: aqua;
+    font-size: 1em;
+}
+
   #bar{
     text-align: right;
     font-family: 'Pacifico', cursive;
