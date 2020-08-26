@@ -150,6 +150,11 @@ footer {
     color: #504746;
   }
 
+  footer nav a:hover {
+    color: #03CBC7;
+    cursor: pointer;
+  }
+
   @media(max-width: 800px) {
     .photo{
       width: 40%;
