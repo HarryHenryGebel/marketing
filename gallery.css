@@ -123,6 +123,10 @@
     text-align: center;
 }
 
+.photo:hover {
+  transform: scale(1.1);
+}
+
 .photo img{
     width: 100%;
 }
@@ -145,10 +149,38 @@ footer {
   footer nav a {
     color: #504746;
   }
-  
+
+  footer nav a:hover {
+    color: #03CBC7;
+    cursor: pointer;
+  }
+
+  @media(max-width: 800px) {
+    .photo{
+      width: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+    .photo p {
+        align-items: center;
+        height: 100px;
+        margin: 10px auto;
+    }
+  }
+
   @media(max-width: 500px) {
-    .testimonial-header img {
-     width: 100%;
-     height: auto;
+    .photo{
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+  }
+    .photo p {
+        align-items: center;
+        height: 100px;
+        margin: 10px auto;
     }
   }

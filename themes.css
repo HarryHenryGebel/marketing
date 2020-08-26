@@ -121,6 +121,14 @@
   justify-content: space-evenly;
 }
 
+.theme:hover{
+  border: 5px dashed #4281A4;
+  border-radius: 10px;
+  padding: 1% 0;
+  margin: 1%;
+  transform: scale(1.1);
+}
+
 .image-left{
     width:30%;
     display:flex;
@@ -137,6 +145,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
+    border-radius: 20px;
   }
 
 .theme-info-right{
@@ -163,10 +172,80 @@ footer {
   footer nav a {
     color: #504746;
   }
+
+  footer nav a:hover {
+    color: #03CBC7;
+    cursor: pointer;
+  }
+
+  @media (max-width: 800px) {
+    .theme{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      /* padding:4% 0; */
+    }
+    
+  .image-left{
+      width:45%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding: 0;
+      margin: 0;
+    }
+  
+  img{
+      width: 100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding: 0;
+      margin: 0;
+    }
+  
+  .theme-info-right{
+      width:45%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+  }
+
   
   @media(max-width: 500px) {
-    .testimonial-header img {
-     width: 100%;
-     height: auto;
+    .theme{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      /* padding:1% 0; */
+    }
+    
+  .image-left{
+      width:90%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding: 0;
+      margin: 0;
+    }
+  
+  img{
+      width: 100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding: 0;
+      margin: 0;
+    }
+  
+  .theme-info-right{
+      width:90%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .theme-info-right h4{
+      text-align: center;
     }
   }
