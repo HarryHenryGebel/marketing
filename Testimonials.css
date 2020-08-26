@@ -178,7 +178,7 @@
   
   @media (max-width: 800px) {
     .testimonial{
-        width: 40%;
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -193,6 +193,12 @@
       flex-wrap: wrap;
       justify-content: center;
       text-align: center;
+  }
+  .testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    height: 12vh;
   }
 }
   
