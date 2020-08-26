@@ -121,6 +121,11 @@
   justify-content: space-evenly;
 }
 
+.theme:hover{
+  border: 5px dashed #4281A4;
+  border-radius: 10px;
+}
+
 .image-left{
     width:30%;
     display:flex;
