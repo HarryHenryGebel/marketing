@@ -1,16 +1,16 @@
 ## marketing
 
-# * Home.html
+* Home.html
   - Home page indicating the purpose of the app
-# * About.html
+* About.html
   - About page - should include a photo of each team member, and their role.
-# * Themes.html
+* Themes.html
   - Different pictures of themes, and a brief description
-# * Gallery.html
+* Gallery.html
   - Photo-heavy site with lots of pics of past events.
-# * Contact.html
+* Contact.html
   - Forms to contact and to find out how they heard about us.
-# * Testimonials.html
+* Testimonials.html
   - Testimonials from users, should be rated in stars.
   
   ## MUSTS:
