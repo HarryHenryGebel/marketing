@@ -18,22 +18,25 @@
     color: #03CBC7;
     cursor: pointer;
   }
-  
-  .login-register {
-    margin: 1% .5%;
-    text-align: right;
-}
 
-.login-register a{
-    padding: .5%;
-    margin: 1%;
-    border: 1px solid #4281A4;
-    color: #504746;
-    border-radius: 20px;
-    text-decoration: none;
-    background-color: aqua;
+  .login {
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+    color: #EAD2AC;
     font-size: 1em;
-}
+  }
+  
+  .login a:link, .login a:visited {
+    text-decoration: none;
+    color: #EAD2AC;
+    background-color: #504746; 
+    padding: 10px;
+  }
+  
+  .login a:hover{
+    color: #03CBC7;
+    cursor: pointer;
+  }
 
   #bar{
     text-align: right;
@@ -131,33 +134,28 @@
   .testimonial-header {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
     height: 15vh;
   }
   
   .testimonial-header img {
     display: flex;
     width: 50%;
-    /* background-color: red; */
   }
   
   .testimonial-header p {
     display: flex;
     width: 45%;
-    /* background-color: green; */
     text-align: right;
     align-items: center;
   }
   
   .review {
     display: flex;
-    /* background-color: grey; */
     align-items: flex-start;
   }
   
   .review p {
     display: flex;
-    /* background-color: peachpuff; */
     align-items: flex-start;
     font-size: 1.4em;
     padding: 1%;
@@ -202,7 +200,6 @@
   .testimonial-header {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
     height: 12vh;
   }
 }
