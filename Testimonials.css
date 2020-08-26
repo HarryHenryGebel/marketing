@@ -18,7 +18,7 @@
     color: #03CBC7;
     cursor: pointer;
   }
-  
+
   .login {
     text-align: right;
     font-family: 'Pacifico', cursive;
@@ -134,33 +134,28 @@
   .testimonial-header {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
     height: 15vh;
   }
   
   .testimonial-header img {
     display: flex;
     width: 50%;
-    /* background-color: red; */
   }
   
   .testimonial-header p {
     display: flex;
     width: 45%;
-    /* background-color: green; */
     text-align: right;
     align-items: center;
   }
   
   .review {
     display: flex;
-    /* background-color: grey; */
     align-items: flex-start;
   }
   
   .review p {
     display: flex;
-    /* background-color: peachpuff; */
     align-items: flex-start;
     font-size: 1.4em;
     padding: 1%;
@@ -205,7 +200,6 @@
   .testimonial-header {
     display: flex;
     justify-content: space-between;
-    /* background-color: yellow; */
     height: 12vh;
   }
 }
