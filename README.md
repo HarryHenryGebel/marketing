@@ -31,3 +31,5 @@
   ## UI/UX DESIGNERS:
   * Fatima - Themes, Gallery, Testimonials
   * Virginia - Home, About, Contact
+
+## Deployed URL : https://not-a-potluck.gebel.tech/
