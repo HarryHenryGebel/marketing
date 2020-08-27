@@ -161,6 +161,18 @@
     padding: 1%;
   }
 
+  .closing {
+    color: #4281A4;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .closing-p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+
   footer {
     background-color: #EAD2AC;
     text-align: center;
