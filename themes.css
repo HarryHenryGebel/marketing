@@ -174,11 +174,22 @@ footer {
 
   footer nav a {
     color: #504746;
+    text-decoration: none;
   }
 
   footer nav a:hover {
     color: #03CBC7;
     cursor: pointer;
+  }
+
+  footer .icons{
+    color: #504746;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  footer .icons:hover{
+    color: #03CBC7;
   }
 
   @media (max-width: 800px) {
